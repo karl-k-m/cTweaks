@@ -1,0 +1,4 @@
+name: cTweaks
+version: '${version}'
+main: com.github.karlkm.ctweaks.CTweaks
+api-version: '1.20'
