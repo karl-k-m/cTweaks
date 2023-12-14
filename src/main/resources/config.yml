@@ -1,0 +1,12 @@
+items:
+  tools:
+    blinkpearl:
+      enable: true
+      craftingRecipeItem: NETHER_STAR
+    tunnelerspickaxe:
+      enable: true
+      craftingRecipeItem: NETHER_STAR
+
+functions:
+  dispenserInteractCauldron:
+    enable: true

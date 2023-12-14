@@ -2,3 +2,13 @@ name: cTweaks
 version: '${version}'
 main: com.github.karlkm.ctweaks.CTweaks
 api-version: '1.20'
+
+commands:
+  ctweaks:
+    permission: ctweaks.command.ctweaks
+    description: Main command for CTweaks
+    usage: /ctweaks <subcommand>
+    subcommands:
+      item:
+        description: Gives user a CTweaks item.
+        usage: /ctweaks item <item>

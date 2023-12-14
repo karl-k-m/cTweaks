@@ -1,4 +1,4 @@
-package functions.dispenerpickupfromcauldron;
+package com.github.karlkm.ctweaks.functions.dispenerpickupfromcauldron;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -39,13 +39,9 @@ public class DispenserInteractCauldronListener implements Listener {
                 // Delay adding the lava bucket to the dispenser by 1 tick to prevent the bucket from being dispensed.
                 Bukkit.getScheduler().runTaskLater(plugin, () -> addItemToDispenser(inv, new ItemStack(Material.LAVA_BUCKET)), 1);
             }
-        }
-
-        if (event.getItem().getType() == Material.BUCKET) {
-            Block block = getTargetBlock(event);
 
             // TODO: Make this work for only full water cauldrons.
-            if (block.getType() == Material.WATER_CAULDRON) {
+            else if (block.getType() == Material.WATER_CAULDRON) {
                 event.setCancelled(true);
 
                 block.setType(Material.CAULDRON);
@@ -59,7 +55,7 @@ public class DispenserInteractCauldronListener implements Listener {
             }
         }
 
-        if (event.getItem().getType() == Material.WATER_BUCKET) {
+        else if (event.getItem().getType() == Material.WATER_BUCKET) {
             Block block = getTargetBlock(event);
 
             if (block.getType() == Material.CAULDRON) {
@@ -78,7 +74,7 @@ public class DispenserInteractCauldronListener implements Listener {
             }
         }
 
-        if (event.getItem().getType() == Material.LAVA_BUCKET) {
+        else if (event.getItem().getType() == Material.LAVA_BUCKET) {
             Block block = getTargetBlock(event);
 
             if (block.getType() == Material.CAULDRON) {
