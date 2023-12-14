@@ -8,7 +8,8 @@ PaperMC plugin which adds various tweaks and items to enhance survival gameplay.
 ## Config:
 In *config.yml* you can configure the following:
   * Disable specific items (all are turned on by default)
-  * Change the secondary crafting recipe material for specific items (see: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
+  * Change the secondary crafting recipe material for specific items (default: NETHER_STAR)  
+    (see: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html)
   * Disable specific functionalities
 
 ## Items:
@@ -17,7 +18,7 @@ In *config.yml* you can configure the following:
 | Tunneler's Pickaxe | Mines 3x3 through natural stone-type blocks.                   | Diamond Pickaxe | Nether Star |
 | Blink Pearl        | Ender pearl that doesn't get used up. Has a 5 second cooldown. | Ender Pearl     | Nether Star |
 
-## Functions:
-| Function           | Effect                                                         |
+## Functionalities:
+| Functionality           | Effect                                                         |
 | ------------------ | ---------------------------------------------------------------| 
 | DispenserInteractCauldron | Allows Dispensers to interact (pick up and place water/lava) with cauldrons| 
