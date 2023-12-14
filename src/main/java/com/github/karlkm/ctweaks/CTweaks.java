@@ -5,7 +5,7 @@ import com.github.karlkm.ctweaks.items.tools.blinkpearl.BlinkPearlListener;
 import com.github.karlkm.ctweaks.items.tools.blinkpearl.BlinkPearlTool;
 import com.github.karlkm.ctweaks.items.tools.tunnelerspickaxe.TunnelersPickaxeListener;
 import com.github.karlkm.ctweaks.items.tools.tunnelerspickaxe.TunnelersPickaxeTool;
-import com.github.karlkm.ctweaks.functions.dispenerpickupfromcauldron.DispenserInteractCauldronListener;
+import com.github.karlkm.ctweaks.functions.dispenerinteractcauldron.DispenserInteractCauldronListener;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -14,7 +14,6 @@ import org.bukkit.inventory.ShapelessRecipe;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.List;
 import java.util.Objects;
 
 public final class CTweaks extends JavaPlugin {

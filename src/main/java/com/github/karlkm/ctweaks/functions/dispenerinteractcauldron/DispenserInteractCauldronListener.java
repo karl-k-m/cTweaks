@@ -1,4 +1,4 @@
-package com.github.karlkm.ctweaks.functions.dispenerpickupfromcauldron;
+package com.github.karlkm.ctweaks.functions.dispenerinteractcauldron;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
