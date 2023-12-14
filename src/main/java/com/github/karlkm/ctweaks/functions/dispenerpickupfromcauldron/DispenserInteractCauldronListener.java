@@ -61,6 +61,7 @@ public class DispenserInteractCauldronListener implements Listener {
             if (block.getType() == Material.CAULDRON) {
                 event.setCancelled(true);
 
+                // TODO: Make it place a full water cauldron instead of a half-full one.
                 block.setType(Material.WATER_CAULDRON);
                 block.getState().update();
 
