@@ -3,7 +3,7 @@
 PaperMC plugin which adds various tweaks and items to enhance survival gameplay.
 
 ## Commands:
-* **/ctweaks** - Main ctweaks command. Usage: /ctweaks [item] <item>
+* **/ctweaks** - Main ctweaks command. Usage: /ctweaks
 
 ## Config:
 In *config.yml* you can configure the following:
